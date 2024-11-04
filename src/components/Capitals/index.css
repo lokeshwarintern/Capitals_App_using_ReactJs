@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-list-card {
+  background-color: #f8fafc;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.select-ele {
+  padding: 14px;
+  border-color: #323f4b;
+  color: #000000;
+  font-family: Roboto;
+  width: 150px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.country-ele {
+  color: #1e293b;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.select-para-ele {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
